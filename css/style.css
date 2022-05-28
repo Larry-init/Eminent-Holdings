@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    color: rgb(43, 43, 43);
+}
+.times, .bar {
+    display: none;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90vw;
+    text-align: center;
+    padding: 10px;
+}
+.logo img {
+    width: 80%;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li {
+    font-size: 18px;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 0 8px;
+    color: #fff;
+}
+.cover img{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+
+    display: block;
+}
+.set {
+    position: relative;
+}
+.head {
+    position: absolute;
+    top: 20px;
+}
+.dream {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+.dream p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.discover button {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 24px;
+    border: 1px double #fff;
+    background-color: #15C1C6;
+    border-radius: 25px;
+}
+.discover button:hover {
+    background: transparent;
+}
+
+/* Services offered */
+.offer {
+    padding: 60px 0;
+}
+.biz {
+    text-align: center;
+    padding: 25px 0;
+}
+.biz h2 {
+    font-size: 25px;
+    padding: 0 0 10px;
+}
+.biz h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.services {
+    display: flex;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.serv {
+    padding: 0 20px;
+}
+.serv h2 {
+    padding: 16px 0 8px 0;
+}
+.serv p {
+    font-size: 14;
+    text-align: left;
+}
+.serv i, .packItems i {
+    color: #fff;
+    background-color: #15C1C6;
+    padding: 15px;
+    border-radius: 50px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 48px 0;
+    background-color: #f8f9fd;
+}
+.intro i {
+    border: solid #808080 1px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.intro h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+.intro p {
+    font-size: 18px;
+}
+.appointment button {
+    font-size: 100px;
+}
+.call, .hours, .appointment {
+    display: flex;
+    padding: 0 50px;
+}
+.amp {
+    padding: 0 0 0 40px;
+}
+
+.appointment button {
+    font-size: 11px;
+    font-family: poppins, arial, sans-serif;
+    padding: 12px 16px;
+    color: #fff;
+    background-color: #15C1C6;
+    border: transparent solid;
+    border-radius: 10px;
+}
+/* Why patronize us */
+.us {
+    background-color: #f8f9fd;
+    padding: 48px 0;
+}
+.patronize {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+.patronize h2 {
+    font-size: 25px;
+    padding: 0 0 10px;
+}
+.patronize p{
+    font-size: 15px;
+    padding: 0 0 10px;
+    color: #15C1C6;
+}
+.packImg img {
+    height: 465px;
+    padding: 0 50px 0 0;
+}
+.pack, .myPick {
+    display: flex;
+    justify-content: center;
+}
+.pack {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.items {
+    padding: 0 0 0 20px;
+}
+.items h4 {
+    padding: 0 0 10px 0;
+    font-size: 20px;
+}
+.items p {
+    padding: 0 0 25px 0;
+}
+.achievement, .achieve {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.achievement img {
+    width: 100vw;
+    height: 600px;
+    max-width: 100%;
+    display: block;
+    filter: brightness(50%);
+}
+.achievement h1 {
+    
+}
+.achieve div {
+    padding: 0 50px;
+    margin: 0 50px;
+}
+.achieve div h1 {
+    border: #fff solid 3px;
+    border-radius: 50%;
+    font-size: 61px;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+.achieve p {
+    font-size: 22px;
+    
+}
+.floatAchieve {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.floatAchieve h1 {
+    font-size: 46px;
+    color: #fff;
+    padding: 0 0 50px;
+}
+.floatAchieve h2 {
+    font-size: 29px;
+    color: #fff;
+}
+.achieve h1, .achieve p {
+    color: #fff;
+}
+.feedback {
+    text-align: center;
+    background-color: rgb(89, 89, 89);
+    color: #fff;
+    padding: 50px 0;
+}
+.feedback h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+.feedback p {
+    font-size: 20px;
+}
+.feedbackHead {
+    padding: 0 0 48px;
+}
+.feedbackHead h2 {
+    font-size: 29px;
+}
+.feedbackHead p {
+    font-size: 46px;
+}
+.flexTest {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+.flexTest i {
+    color: #15C1C6;
+}
+.flexTest h2 {
+    padding: 15px 0 15px;
+    font-size: 14px;
+    color:#15C1C6;
+}
+.flexTest div {
+    padding: 0 0 0 70px;
+}
+.free {
+    text-align: center;
+    padding: 50px 0;
+}
+.freeText h4 {
+    font-size: 22px;
+}
+.freeText h1 {
+    font-size: 45px;
+    padding: 0 0 16px;
+    color: #15C1C6;
+}
+.freeText h6 {
+    font-size: 22px;
+    padding: 0 0 10px;
+}
+.free form input, .free form select {
+    background-color: #f6f6f6;
+    margin: 0 0 20px;
+    padding: 17px 56px 16px 20px;
+    width: 40%;
+    border: transparent 1px solid;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.free form button {
+    padding: 19px 38px;
+    margin: 20px 0 0;
+    border-radius: 25px;
+    border: transparent solid 1px;
+    background-color: #15C1C6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.free form button:hover {
+    background-color: rgb(64, 64, 64)
+}
+.footer {
+    background-color: rgb(64, 64, 64);
+    padding: 60px 96px 50px;
+    text-align: center;
+}
+.footer h1 {
+    padding:0 10px;
+}
+.footer p {
+    color: #fff;
+}
+.pace {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+/* media query  */
+@media(max-width: 768px) {
+  
+    .menu {
+        display: none;
+    }
+    .times, .bar {
+        display: contents;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bar button {
+        outline: none;
+        border: none;
+        color: #fff;
+        background: none;
+    }
+    .times{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        transform: translate(200%);
+        transition-duration: 1s;
+    }
+    .timesOut {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 60%;
+        transform: translate(0);
+        transition-duration: 1s;
+        z-index: 1;
+    }
+    .times button {
+        position: relative;
+        right: 130%;
+        margin-top: 60px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .timesMenu ul {
+        list-style: none;
+        margin: 20px 50px 0 0;
+    }
+    .timesMenu li {
+        padding: 15px 15px 15px 0;
+    }
+    .timesMenu li a {
+        text-decoration: none;
+        color: #808080;
+        font-family: "Open sans", sans-serif;
+    }
+    .timesMenu ul li a:hover {
+        color:#15C1C6;
+    }
+    .timesMenu span {
+        color: #15C1C6;
+    }
+    .timesBtn i {
+        color: #15C1C6;
+    }
+
+    /* review */
+    .logo img {
+        width: 50%;
+    }
+    .head {
+        top: 10px;
+    }
+    .dream {
+        font-size: 16px;
+    }
+    .dream p {
+        font-size: 14px;
+    }
+    .discover button {
+        padding: 5px 25px;
+        font-size: 16px;
+    }
+
+    /* Services offered */
+    .offer {
+        padding: 60px 0;
+    }
+    .biz {
+        text-align: center;
+        padding: 25px 0;
+    }
+    .biz h2 {
+        font-size: 18px;
+        padding: 0 0 10px;
+    }
+    .biz h1 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+    }
+    .serv {
+        padding: 30px 20px 0 0;
+    }
+    .serv h2 {
+        padding: 16px 0 8px 0;
+        font-size: 14px;
+    }
+    .serv i {
+        font-size: 14px;
+    }
+    .serv p {
+        font-size: 14px;
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .intro h4 {
+        font-size: 16px;
+    }
+    .intro p {
+        font-size: 16px;
+    }
+    .call, .hours, .appointment {
+        padding: 15px 50px;
+    }
+    .appointment button {
+        font-size: 11px;
+        font-family: poppins, arial, sans-serif;
+        padding: 12px 16px;
+        color: #fff;
+        background-color: #15C1C6;
+        border: transparent solid;
+        border-radius: 10px;
+    }
+    /* Why patronize us */
+    .us {
+        background-color: #f8f9fd;
+        padding: 48px 0;
+    }
+    .patronize {
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+    .patronize h2 {
+        font-size: 25px;
+        padding: 0 0 10px;
+    }
+    .patronize p{
+        font-size: 15px;
+        padding: 0 0 10px;
+        color: #15C1C6;
+    }
+    .packImg img {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        padding: 0 50px 0 0;
+    }
+    .pack, .myPick {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pack p, .pack i {
+        font-size: 14px;
+    }
+    .items {
+        padding: 0 0 0 20px;
+    }
+    .items h4 {
+        padding: 0 0 10px 0;
+        font-size: 20px;
+    }
+    .items p {
+        padding: 0 0 25px 0;
+    }
+    .achievement, .achieve {
+        flex-direction: column;
+    }
+    .achieve div h1 {
+        border: #fff solid 3px;
+        border-radius: 50%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        padding: 20px;
+    }
+    .achieve p {
+        font-size: 14px;
+        
+    }
+    .floatAchieve h1 {
+        font-size: 16px;
+        color: #fff;
+        padding: 0 0 20px;
+    }
+    .floatAchieve h2 {
+        font-size: 14px;
+    }
+    .achieve h1, .achieve p {
+        color: #fff;
+    }
+    .feedback p {
+        font-size: 14px;
+    }
+    .feedbackHead p {
+        font-size: 20px;
+    }
+    .feedbackHead h2 {
+        font-size: 14px;
+    }
+    .feedbackHead {
+        padding: 0;
+    }
+    .flexTest {
+        flex-direction:column;
+    }
+    .flexTest div {
+        padding: 30px 0 0 70px;
+    }
+    .freeText h4 {
+        font-size: 12px;
+    }
+    .freeText h1 {
+        font-size: 14px;
+    }
+    .freeText h6 {
+        font-size: 14px;
+    }
+    .free form input, .free form select {
+        font-size: 12px;
+    }
+    .free form button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .footer h1 {
+        font-size: 16px;
+    }
+    .footer i {
+        font-size: 16px;
+    }
+}
